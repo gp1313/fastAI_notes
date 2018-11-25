@@ -82,8 +82,10 @@
   - add all the plausible decomposition of date as we dont have to worry about number of columns
   - source code is prety readable
 - In pandas data frame use square bracket to access columns it is safer than dot method
-- convert columns with dtype strings into numbers using train_cats function
-- Be careful of miss matching of categorial variable mapping in train set and test set.
+- train_cats() ==> convert columns with dtype strings into numbers using train_cats function
+- apply_cats() ==> Be careful of miss matching of categorial variable mapping in train set and test set.
+- change order of categorical variable to make more sense out of it (optional)
+- Analyse percentage of missing values across different columns.
 
 ### 60 - 70 mins
 
